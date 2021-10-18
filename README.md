@@ -39,3 +39,4 @@ Note that due to the limited GPU memory, we accumulate a few batch to approximat
 python eval_rs.py --dump_images 0 --num_images 5000 --model c1/modelc10001.pth --infos_path c1/infos_c10001.pkl --language_eval 1 --beam_size 5 --split test --index_eval 1 --gpu 1 --batch_size 100 --memory_cell_path c1/memory_cellrc10001.npz
 ```
 what you need to do is to switch the model id with your id, like c10001 to c10023.
+
